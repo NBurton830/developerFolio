@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Nyshawn",
+  title: "Hi all, I'm Nyshawn",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer, having an experience of building eCommerce Storefronts with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1L29x1n7plC9Gg5EAFMka6b_hpETXpW56QvTlN7o0YP8/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/nburton830",
+  linkedin: "https://www.linkedin.com/in/nyshawn-burton",
+  gmail: "nyshawnburton16@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "https://medium.com/@nyshawnburton",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -89,32 +89,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Shopify",
+      fontAwesomeClassname: "fas fa-store"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +118,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "High School STEM Student",
+      subHeader: "2 Years of STEM Education",
+      duration: "September 2016 - June 2018",
+      desc: "Participated in the STEM program at my high school, learning the basics of coding and computer science.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Founder of Engineering & Robotics Club",
+        "Ranked 7th in the Nation VEX Robotics",
+        "2nd Place in State for VEX Robotics"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -158,7 +142,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "40%"
     },
     {
       Stack: "Programming",
@@ -169,35 +153,130 @@ const techStack = {
 };
 
 // Work experience section
+/*
+RESUME PROFESSIONAL EXPERIENCE SECTION
+Professional Experience
+Lead eCommerce Developer | cellhelmet 
+Jun 2023 – Nov 2023
+Customized Shopify Plus theme for mobile accessories, increasing mobile performance scores by 30
+Prevented a potential accessibility lawsuit by improving site accessibility, resulting in a 20-point CLS score improvement
+Conducted ongoing maintenance and delivered features without access to detailed metrics
+Integrated third-party tools to support upsells and streamline checkout
+Built dynamic product detail pages using metafields and advanced Liquid logic
 
+
+Lead eCommerce Developer | Athletic Brewing Co. 
+Jul 2022 – Dec 2022
+Delivered new navigation, homepage components, custom cart, and PDP through targeted feature development
+Performed performance tuning, leading to a 5-point CLS score improvement
+Maintained existing codebase while supporting new initiatives and subscription-based 
+Lead eCommerce Developer | Gapstow 
+ Jan 2022 – June 2022
+Contracted via agency to maintain and enhance multiple Shopify storefronts
+Delivered new features and bugfixes across various client sites
+Focused on performance, mobile usability, and UX alignment with client goals
+Senior eCommerce Developer (Remote) | 
+Sweden Unlimited 
+Jun 2021 – Jan 2022
+Led development of reusable Shopify 2.0 Lite templates based on the Dawn & Slate themes
+Built modular, style guide-driven components for fashion/lifestyle clients
+Conducted front-end performance audits and accessibility upgrades
+Delivered high-end storefronts with focus on branding consistency and scalability
+
+
+Lead eCommerce Developer | Shoreside Digital LLC 
+Mar 2021 – Jun 2021
+Focused on mobile-first UX enhancements for DTC brands
+Developed themes and implemented UI improvements based on client needs
+Front-End Developer | BVA (Brand Value Accelerator) · Feb 2019 – Feb 2021
+Maintained and improved 10+ Shopify storefronts and Workarea builds post-acquisition
+Developed React-based agency website using a style guide-driven approach
+Delivered both greenfield builds and ongoing feature/bugfix support
+Collaborated closely with QA and strategy teams to refine UI and boost conversions
+
+
+Junior Front-End Developer | Workarea (WebLinc) · Jun 2018 – Feb 2019
+Built and maintained multi-site eCommerce storefronts using SCSS, jQuery, JavaScript, and Rails
+Contributed to accessibility and SEO enhancements on the Workarea platform
+Worked in an agile environment maintaining 5–6 sites with MongoDB, Redis, Elasticsearch, and Docker
+
+
+Front-End Intern | Workarea (WebLinc) · Jan 2018 – Jun 2018
+Participated in agile development cycles, testing, and tooling for eCommerce projects
+
+
+*/
+// Use The RESUME PROFESIONAL EXPERIENCE as a reference
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    // Use The RESUME PROFESIONAL EXPERIENCE as a reference
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Lead eCommerce Developer",
+      company: "cellhelmet",
+      companylogo: require("./assets/images/cellhelmet_logo.jpg"),
+      date: "Jun 2023 – Nov 2023",
+      desc: "Customized Shopify Plus theme for mobile accessories, increasing mobile performance scores by 30. Prevented a potential accessibility lawsuit by improving site accessibility, resulting in a 20-point CLS score improvement. Conducted ongoing maintenance and delivered features without access to detailed metrics. Integrated third-party tools to support upsells and streamline checkout. Built dynamic product detail pages using metafields and advanced Liquid logic.",
+      descBullets: []
+    },
+    {
+      role: "Lead eCommerce Developer",
+      company: "Athletic Brewing Co.",
+      companylogo: require("./assets/images/athletic_brewing_company_llc_logo.jpg"),
+      date: "Jul 2022 – Dec 2022",
+      desc: "Delivered new navigation, homepage components, custom cart, and PDP through targeted feature development. Performed performance tuning, leading to a 5-point CLS score improvement. Maintained existing codebase while supporting new initiatives and subscription-based features.",
+      descBullets: []
+    },
+    {
+      role: "Lead eCommerce Developer",
+      company: "Gapstow",
+      companylogo: require("./assets/images/gapstow_logo.jpg"),
+      date: "Jan 2022 – June 2022",
+      desc: "Contracted via agency to maintain and enhance multiple Shopify storefronts. Delivered new features and bugfixes across various client sites. Focused on performance, mobile usability, and UX alignment with client goals.",
+      descBullets: []
+    },
+    {
+      role: "Senior eCommerce Developer (Remote)",
+      company: "Sweden Unlimited",
+      companylogo: require("./assets/images/sweden_unlimited_logo.jpg"),
+      date: "Jun 2021 – Jan 2022",
+      desc: "Led development of reusable Shopify 2.0 Lite templates based on the Dawn & Slate themes. Built modular, style guide-driven components for fashion/lifestyle clients. Conducted front-end performance audits and accessibility upgrades. Delivered high-end storefronts with focus on branding consistency and scalability.",
+      descBullets: []
+    },
+    {
+      role: "Lead eCommerce Developer",
+      company: "Shoreside Digital LLC",
+      companylogo: require("./assets/images/shoresidedigital_logo.jpg"),
+      date: "Mar 2021 – Jun 2021",
+      desc: "Focused on mobile-first UX enhancements for DTC brands. Developed themes and  implemented UI improvements based on client needs.",
+      date: "Mar 2021 – Jun 2021",
+      descBullets: []
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "BVA (Brand Value Accelerator)",
+      companylogo: require("./assets/images/bvacommerce_logo.jpg"),
+      date: "Feb 2019 – Feb 2021",
+      desc: "Maintained and improved 10+ Shopify storefronts and Workarea builds post-acquisition. Developed React-based agency website using a style guide-driven approach. Delivered both greenfield builds and ongoing feature/bugfix support. Collaborated closely with QA and strategy teams to refine UI and boost conversions.",
+      descBullets: []
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Front-End Developer",
+      company: "Workarea (WebLinc)",
+      companylogo: require("./assets/images/weblinc_logo.png"),
+      date: "Jun 2018 – Feb 2019",
+      desc: "Built and maintained multi-site eCommerce storefronts using SCSS, jQuery, JavaScript, and Rails. Contributed to accessibility and SEO enhancements on the Workarea platform. Worked in an agile environment maintaining 5–6 sites with MongoDB, Redis, Elasticsearch, and Docker.",
+      descBullets: []
+    },
+    {
+      role: "Front-End Intern",
+      company: "Workarea (WebLinc)",
+      companylogo: require("./assets/images/weblinc_logo.png"),
+      date: "Jan 2018 – Jun 2018",
+      desc: "Participated in agile development cycles, testing, and tooling for eCommerce projects.",
+      descBullets: []
     }
+  
   ]
 };
 
@@ -206,35 +285,35 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/heineken_project.jpg"),
+      projectName: "Heineken",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://heineken.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/worldwidestereo_project.png"),
+      projectName: "WorldWide Stereo",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://worldwidestereo.com/"
         }
       ]
     }
@@ -300,7 +379,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +403,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +422,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +435,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +451,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (856) 477-1942",
+  email_address: "nyshawnburton16@@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
