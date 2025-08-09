@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "nyshawnburton.com"
+        }
+      ],
+      "destination": "https://nyshawnburton.com/",
+      "permanent": true
+    }
+  ]
+}
