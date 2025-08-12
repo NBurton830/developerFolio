@@ -276,7 +276,6 @@ const workExperiences = {
       desc: "Participated in agile development cycles, testing, and tooling for eCommerce projects.",
       descBullets: []
     }
-  
   ]
 };
 
